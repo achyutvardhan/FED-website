@@ -21,8 +21,8 @@
                                 
                                 h1 {
                                     margin-left: 37px;
+                                    font-family: 'Rubik', sans-serif;
                                     font-style: normal;
-                                    font-family: 'Inter', sans-serif;
                                     font-weight: 700;
                                     font-size: 30px;
                                     line-height: 36px;
@@ -42,7 +42,7 @@
                                     padding: 40px;
                                     display: flex;
                                     flex-direction: row;
-                                    width: 700px;
+                                    width: auto;
                                     left: 50px;
                                 }
                                 
@@ -83,7 +83,7 @@
                                 
                                 .image1 {
                                     position: absolute;
-                                    width: 20px;
+                                    width: 30px;
                                 }
                                 
                                 .newsletter {
