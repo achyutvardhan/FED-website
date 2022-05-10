@@ -576,3 +576,36 @@
                 letter-spacing: 0.07px;
                 white-space: pre-wrap;
             }
+            
+            @media screen and (max-width: 650px) {
+                .box {
+                    width: 90%;
+                }
+                .button {
+                    position: absolute;
+                    top: 147px;
+                    right: 39px;
+                    width: 20%;
+                    text-align: center;
+                }
+            }
+            
+            @media (min-width: 430px)and (max-width: 563px) {
+                .button {
+                    position: absolute;
+                    top: 147px;
+                    right: 39px;
+                    width: 25%;
+                    text-align: center;
+                }
+            }
+            
+            @media screen and (max-width: 430px) {
+                .button {
+                    position: absolute;
+                    top: 147px;
+                    right: 25px;
+                    width: 25%;
+                    text-align: center;
+                }
+            }

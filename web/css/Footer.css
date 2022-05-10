@@ -138,3 +138,24 @@
                                         display: none;
                                     }
                                 }
+                                
+                                @media screen and (max-width: 1496px) {
+                                    .box1 {
+                                        position: absolute;
+                                        top: 250px;
+                                        width: 35%;
+                                    }
+                                    .button1 {
+                                        position: absolute;
+                                        top: 253px;
+                                        width: 14.7%;
+                                    }
+                                }
+                                
+                                @media screen and (max-width: 999px) {
+                                    .flex {
+                                        display: flex;
+                                        flex-direction: column;
+                                        width: 40%;
+                                    }
+                                }
