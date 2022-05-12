@@ -80,7 +80,7 @@
 .footer-subtitle {
     display: flex;
     align-items: center;
-    font: 700 23.50877px/1.2 "Rubik", Helvetica, Arial, serif;
+    font: 700 23.50877px/1.2 'Rubik', sans-serif;
     color: white;
     text-shadow: 0.97953px 0.48666px 0.97953px #f45725;
     letter-spacing: 0px;
@@ -215,7 +215,7 @@
 }
 
 .footer-subtitle1 {
-    font: 500 20px/1.2 "Rubik", Helvetica, Arial, serif;
+    font: 500 20px/1.2 'Rubik', sans-serif;
     color: white;
     letter-spacing: 0px;
 }
@@ -267,8 +267,8 @@
 }
 
 .image1 {
-    width: 21px;
-    height: 21px;
+    width: 25px;
+    height: 25px;
 }
 
 form {
@@ -282,7 +282,7 @@ form {
     width: 105.06px;
     height: 43.5px;
     right: 22px;
-    top: 144px;
+    top: 0px;
     background: #f45725;
     border-radius: 6px;
     font-family: "Manrope", sans-serif;
@@ -306,6 +306,7 @@ form {
     border-radius: 6.81909px;
     color: #777777;
     background: #1e1e1e;
+    font-family: 'Manrope', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 15px;
@@ -353,7 +354,7 @@ form {
     margin-top: 0px;
     margin-bottom: 0px;
     margin: 0px;
-    font: 700 17px/1.41 "Manrope", Helvetica, Arial, serif;
+    font: 700 17px/1.41 'Manrope', sans-serif;
     color: #afafaf;
     letter-spacing: 0.09px;
     white-space: pre-wrap;
@@ -588,31 +589,48 @@ form {
     .box {
         width: 90%;
     }
+    .icon {
+        position: absolute;
+        right: 0%;
+    }
+}
+
+@media (min-width: 539px)and (max-width: 650px) {
     .button {
         position: absolute;
-        top: 147px;
-        right: 39px;
+        right: 7%;
+        top: 165px;
         width: 20%;
         text-align: center;
     }
 }
 
-@media (min-width: 430px) and (max-width: 563px) {
+@media (min-width: 507px) and (max-width: 539px) {
     .button {
         position: absolute;
-        top: 147px;
-        right: 39px;
-        width: 25%;
+        right: 6.6%;
+        top: 165px;
+        width: 20%;
         text-align: center;
     }
 }
 
-@media screen and (max-width: 430px) {
+@media (min-width: 480px) and (max-width: 507px) {
     .button {
         position: absolute;
-        top: 147px;
-        right: 25px;
-        width: 25%;
+        right: 6.5%;
+        top: 165px;
+        width: 23%;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .button {
+        position: absolute;
+        right: 6%;
+        top: 165px;
+        width: 26%;
         text-align: center;
     }
 }
