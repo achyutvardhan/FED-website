@@ -68,6 +68,7 @@
     border: 2px solid #F45725;
     border-radius: 6px;
     color: #F45725;
+    font-size: 20px;
 }
 
 .femail {
@@ -77,6 +78,7 @@
     border: 2px solid #F45725;
     border-radius: 6px;
     color: #F45725;
+    font-size: 20px;
 }
 
 .fmessage {
@@ -85,9 +87,11 @@
     background: #FFFFFF;
     border-radius: 6px;
     border: 2px solid #F45725;
+    color: #F45725;
+    font-size: 20px;
 }
 
-.submit {
+.submit1 {
     justify-content: center;
     text-align: center;
     padding: 20px;
