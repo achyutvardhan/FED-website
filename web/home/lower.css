@@ -1,0 +1,115 @@
+.lower {
+    background-image: url(./homeImage/Rectangle-89.png);
+    width: 100%;
+    height: 800px;
+    align-items: center;
+}
+
+.flex-6 {
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-lower-1 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 90.5px;
+    margin-left: 130.5px;
+    width: 565px;
+    height: 220px;
+    gap: 20px;
+}
+
+.lower1 {
+    font-family: "Rubik", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 80px;
+    letter-spacing: 0.005em;
+    color: #FFFFFF;
+}
+
+.p2 {
+    font-family: 'Manrope', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 40px;
+    letter-spacing: 0.005em;
+    color: #FFFFFF;
+}
+
+.flex-lower-2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-lower-2 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 90.5px;
+    margin-left: 50px;
+    margin-right: 130.5px;
+    width: 565px;
+    height: 220px;
+    gap: 35px;
+}
+
+.col-1 {
+    display: flex;
+    flex-direction: column;
+}
+
+#fname {
+    height: 50px;
+    width: 564px;
+    background: #FFFFFF;
+    border: 2px solid #F45725;
+    border-radius: 6px;
+    color: #F45725;
+}
+
+.femail {
+    width: 564px;
+    height: 50px;
+    background: #FFFFFF;
+    border: 2px solid #F45725;
+    border-radius: 6px;
+    color: #F45725;
+}
+
+.fmessage {
+    width: 564px;
+    height: 200px;
+    background: #FFFFFF;
+    border-radius: 6px;
+    border: 2px solid #F45725;
+}
+
+.submit {
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+    gap: 10px;
+    width: 530px;
+    height: 64px;
+    background: #F45725;
+    border-radius: 6px;
+    color: #FFFFFF;
+    font-family: "Rubik", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.color2 {
+    font-family: 'Manrope', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 40px;
+    letter-spacing: 0.005em;
+    color: #F45725;
+}
