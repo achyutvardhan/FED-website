@@ -89,22 +89,22 @@
     text-align: center;
 } */
     /* .ArrowDiv {
-    position: absolute;
-    top: 32px;
-    left: 0px;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.NavArrow {
-    width: 7px;
-    height: 7px;
-    border-style: solid;
-    border-width: 1.99227px 1.99227px 0px 0px;
-    transform: rotate(-45deg);
-} */
+        position: absolute;
+        top: 32px;
+        left: 0px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .NavArrow {
+        width: 7px;
+        height: 7px;
+        border-style: solid;
+        border-width: 1.99227px 1.99227px 0px 0px;
+        transform: rotate(-45deg);
+    } */
     
     #NavMObo {
         display: none;
