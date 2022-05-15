@@ -1,4 +1,4 @@
-/* @media screen and (max-width: 650px) {
+@media screen and (max-width: 650px) {
     h1,
     h2,
     h3,
@@ -39,4 +39,4 @@
     .headroom--unpinned {
         transform: translateY(-100%);
     }
-} */
+}
