@@ -173,7 +173,7 @@ h1 {
     flex-direction: row;
 }
 
-a {
+.tag {
     font-family: 'Manrope', sans-serif;
     font-style: normal;
     font-weight: 700;
