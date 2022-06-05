@@ -104,7 +104,8 @@
 .believeCenterCol p span,
 .userName,
 .Seeall,
-.Seeall span {
+.Seeall span,
+.WeWorkWithPTag span {
     background-color: transparent;
     color: #f45725;
 }
@@ -251,4 +252,8 @@
 .Seeall span {
     font-size: 22px;
     font-weight: 500;
+}
+
+.WeWorkWithPTag {
+    font-family: "Rubik", sans-serif;
 }
