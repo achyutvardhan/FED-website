@@ -167,11 +167,11 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: pink;
 }
 
 .testDiv {
     background-color: #fff;
     padding: 24px;
     width: 27.77%;
+    border-radius: 12px;
 }
