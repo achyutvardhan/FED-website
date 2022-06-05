@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- css -->
+    <link rel="stylesheet" href="./CSS/nav.css">
+    <link rel="stylesheet" href="./CSS/footer.css">
+
+    <!-- Js -->
+    <script src="./js/nav.js" defer></script>
+
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- destop nav -->
+    <nav id="desNav">
+        <div class="navmDiv">
+            <div class="LogoDiv">
+                <img src="./Img/FedLogo.png" alt="" />
+                <p class="LogoFED">FED</p>
+            </div>
+            <div class="listDiv">
+                <ul id="NavUl">
+                    <li id="newLiTag">
+                        Events
+                        <!-- <div class="ArrowDiv"> -->
+                        <!-- <div class="NavArrow"></div> -->
+                        <!-- </div> -->
+                        <!-- <p id="NavNewPtag">New!</p> -->
+                    </li>
+                    <li>Podcasts</li>
+                    <li>Blogs</li>
+                    <li>Our Team</li>
+                    <li>Join Us</li>
+                    <li>Design System</li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- mobo nav -->
+    <nav id="NavMObo">
+        <div id="navMOboCon">
+            <div id="navtoggleDiv" onclick="ToggleHam(event)">
+                <div class="hamburger" id="ham">
+                    <div id="bur1"></div>
+                    <div id="bur2"></div>
+                    <div id="bur3"></div>
+                </div>
+            </div>
+
+            <div class="LogoDiv">
+                <img src="./Img/FedLogo.png" alt="FEDLogoImg" />
+                <p class="LogoFED">FED</p>
+            </div>
+
+            <div id="Navdarkright">dark</div>
+        </div>
+    </nav>
+
+    <!-- content on Nav -->
+    <div class="con"></div>
+    <div id="NavListMobo">
+        <div class="NavListMoboChild">
+            <div class="NewMoboList">
+                <p>Events</p>
+                <div class="NavNewMobo">
+                    <div class="NavMoboArrow"></div>
+                    <p class="NavNew">New</p>
+                </div>
+            </div>
+            <div class="NewMoboList">
+                <p>Podcasts</p>
+                <!-- <div class="NavNewMobo">
+                      <div class="NavMoboArrow"></div>
+                      <p class="NavNew">New</p>
+                  </div> -->
+            </div>
+            <div class="NewMoboList">
+                <p>Blogs</p>
+                <!-- <div class="NavNewMobo">
+                      <div class="NavMoboArrow"></div>
+                      <p class="NavNew">New</p>
+                  </div> -->
+            </div>
+            <div class="NewMoboList">
+                <p>Our Team</p>
+                <!-- <div class="NavNewMobo">
+                      <div class="NavMoboArrow"></div>
+                      <p class="NavNew">New</p>
+                  </div> -->
+            </div>
+            <div class="NewMoboList">
+                <p>Join Us</p>
+                <!-- <div class="NavNewMobo">
+                      <div class="NavMoboArrow"></div>
+                      <p class="NavNew">New</p>
+                  </div> -->
+            </div>
+            <div class="NewMoboList">
+                <p>Design System</p>
+                <div class="NavNewMobo">
+                    <div class="NavMoboArrow"></div>
+                    <p class="NavNew">New</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    Hello World
+
+    <!-- footer -->
+    <!-- footer destop-->
+    <footer class="desFooter">
+        <div class="logo">
+            <img src="./Img/FedLogo.png" alt="" class="imglogo" />
+            <p class="LogoFED" id="FED">FED</p>
+        </div>
+        <div class="FooterFlexDiv">
+            <div class="FooterDes">
+                <div class="row1">
+                    <h4>Company</h4>
+                    <a href="#about">About</a>
+                    <a href="#about">Newsroom</a>
+                    <a href="#about">Contact</a>
+                    <a href="#about">Carrers</a>
+                </div>
+                <div class="row2">
+                    <h4>About Us</h4>
+                    <a href="#about">Manifesto</a>
+                    <a href="#about">Press</a>
+                    <a href="#about">{Investors}</a>
+                    <a href="#about">Partnerships</a>
+                    <a href="#">Blog</a>
+                </div>
+                <div class="row3">
+                    <h4>Services</h4>
+                    <a href="#about">Startups</a>
+                    <a href="#about">Corporates</a>
+                    <a href="#about">Investors</a>
+                    <a href="#about">Governments</a>
+                    <a href="#about">Incubators&</a>
+                    <a href="#about">Acclerators</a>
+                </div>
+                <div class="row4">
+                    <h4>Help</h4>
+
+                    <a href="#about">Accessibility Statement</a>
+                    <a href="#about">Startup Support </a>
+                    <a href="#about">Corporate Support</a>
+                    <a href="#about">System Status</a>
+                </div>
+            </div>
+            <div class="FooterRightDiv">
+                <h4 class="social">Social</h4>
+                <div class="iconsDiv">
+                    <img src="./Img/instagram.png" alt="instagram" class="IconsTag" />
+                    <img src="./Img/linkedin.png" alt="linkedin" class="IconsTag" />
+                    <img src="./Img/spotify.png" alt="spotify" class="IconsTag" />
+                    <img src="./Img/youtube.png" alt="youtube" class="IconsTag" />
+                </div>
+                <p class="newsletter">Newsletter</p>
+                <div class="newsletterPositionDiv" id="news0">
+                    <input type="text" name="" id="newsLettrinp" placeholder="Enter Your Email" />
+                    <button class="GetStarted">Get Started</button>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- footer Mobo-->
+    <footer class="MoboFooter">
+        <div class="MoboFooterLogoDiv">
+            <div class="logo">
+                <img src="./Img/FedLogo.png" alt="" class="imglogo" />
+                <p class="LogoFED" id="FED">FED</p>
+            </div>
+            <div class="iconsDiv">
+                <img src="./Img/instagram.png" alt="instagram" class="IconsTag" />
+                <img src="./Img/linkedin.png" alt="linkedin" class="IconsTag" />
+                <img src="./Img/spotify.png" alt="spotify" class="IconsTag" />
+                <img src="./Img/youtube.png" alt="youtube" class="IconsTag" />
+            </div>
+        </div>
+        <div class="FooterRightDiv">
+            <p class="newsletter">Newsletter</p>
+            <div class="newsletterPositionDiv" id="news1">
+                <input type="text" name="" id="newsLettrinp" placeholder="Enter Your Email" />
+                <button class="GetStarted">Get Started</button>
+            </div>
+        </div>
+        <div class="FooterFlexDiv">
+            <div class="FooterDes">
+                <div class="row1">
+                    <h4>Company</h4>
+                    <a href="#about">About</a>
+                    <a href="#about">Newsroom</a>
+                    <a href="#about">Contact</a>
+                    <a href="#about">Carrers</a>
+                </div>
+                <div class="row2">
+                    <h4>About Us</h4>
+                    <a href="#about">Manifesto</a>
+                    <a href="#about">Press</a>
+                    <a href="#about">{Investors}</a>
+                    <a href="#about">Partnerships</a>
+                    <a href="#">Blog</a>
+                </div>
+                <div class="row3">
+                    <h4>Services</h4>
+                    <a href="#about">Startups</a>
+                    <a href="#about">Corporates</a>
+                    <a href="#about">Investors</a>
+                    <a href="#about">Governments</a>
+                    <a href="#about">Incubators&</a>
+                    <a href="#about">Acclerators</a>
+                </div>
+                <div class="row4">
+                    <h4>Help</h4>
+
+                    <a href="#about">Accessibility Statement</a>
+                    <a href="#about">Startup Support </a>
+                    <a href="#about">Corporate Support</a>
+                    <a href="#about">System Status</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>

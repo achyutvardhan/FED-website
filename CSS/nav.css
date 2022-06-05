@@ -1,0 +1,270 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap");
+* {
+    margin: 0px;
+    padding: 0px;
+    background-color: #0f0e0e;
+    color: #fff;
+}
+
+#desNav {
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 120px;
+    box-shadow: 0px 4px 4px rgba(255, 255, 255, 0.1);
+    z-index: 2;
+}
+
+.con {
+    width: 100%;
+    height: 120px;
+    background-color: #fff;
+}
+
+.navmDiv {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: 20px 40px;
+}
+
+.LogoFED {
+    font-family: "Rubik", sans-serif;
+    margin-left: 20px;
+    font-size: 30px;
+    line-height: 36px;
+    text-shadow: 1px 0px 0.496831px #f45725;
+}
+
+.LogoDiv {
+    display: flex;
+    flex-direction: row;
+}
+
+.LogoDiv img {
+    width: 40px;
+    height: 40px;
+}
+
+.listDiv {
+    width: 70%;
+}
+
+#NavUl {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+#NavUl li {
+    font-family: "Manrope", sans-serif;
+    list-style-type: none;
+    font-size: 19px;
+    line-height: 28px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+#NavUl li:hover {
+    color: #f45725;
+}
+
+#newLiTag {
+    position: relative;
+}
+
+#NavNewPtag {
+    margin-top: 20px;
+    color: #f45725;
+    width: 100%;
+    text-align: center;
+}
+
+.ArrowDiv {
+    position: absolute;
+    top: 32px;
+    left: 0px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.NavArrow {
+    width: 7px;
+    height: 7px;
+    border-style: solid;
+    border-width: 1.99227px 1.99227px 0px 0px;
+    transform: rotate(-45deg);
+}
+
+#NavMObo {
+    display: none;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #1e1e1e;
+}
+
+#NavListMobo {
+    display: none;
+}
+
+@media only screen and (max-width: 900px) {
+    .listDiv {
+        width: 75%;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    #NavUl li {
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    #NavUl li {
+        font-size: 12px;
+    }
+}
+
+@media only screen and (max-width: 650px) {
+    #desNav {
+        display: none;
+    }
+    .con {
+        height: 48px;
+    }
+    #NavMObo {
+        width: 100%;
+        position: fixed;
+        height: 48px;
+        display: flex;
+        z-index: 2;
+    }
+    #navMOboCon {
+        margin: 10px 20px;
+        width: 100%;
+        background-color: transparent;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .hamburger {
+        width: 24px;
+        height: 24px;
+        cursor: pointer;
+        background-color: transparent;
+        transition: all 0.3s;
+    }
+    .hamburger p {
+        background-color: transparent;
+        font-size: 24px;
+        margin-top: -7px;
+        transition: all 0.3s;
+    }
+    #bur1,
+    #bur2,
+    #bur3 {
+        border-radius: 5px;
+        background-color: #fff;
+        height: 2px;
+    }
+    #bur1 {
+        width: 100%;
+        margin-top: 4px;
+        margin-bottom: 5px;
+    }
+    #bur2 {
+        width: 75%;
+        margin-bottom: 5px;
+    }
+    #bur3 {
+        width: 50%;
+    }
+    .LogoDiv,
+    .LogoDiv img,
+    .LogoFED {
+        background-color: transparent;
+    }
+    .LogoDiv {
+        align-items: center;
+    }
+    .LogoDiv img {
+        width: 28px;
+        height: 28px;
+    }
+    .LogoFED {
+        font-size: 24px;
+        line-height: 28.44px;
+    }
+    #Navdarkright {
+        opacity: 0;
+        visibility: hidden;
+        pointer-events: none;
+    }
+    #NavListMobo {
+        font-family: "Manrope", sans-serif;
+        opacity: 0;
+        visibility: hidden;
+        position: fixed;
+        top: 48px;
+        left: 0px;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        transform: translateX(-100%);
+        transition: all 0.5s;
+        transition-delay: 0.3s;
+        z-index: 2;
+    }
+    #navtoggleDiv {
+        background-color: transparent;
+    }
+    #navtoggleDiv {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .NavListMoboChild {
+        margin-left: 20px;
+        margin-top: 37px;
+        width: 80%;
+    }
+    .NavListMoboChild p {
+        font-weight: 700;
+        margin-bottom: 30px;
+    }
+    .NewMoboList {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .NavNewMobo {
+        margin-top: 7px;
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+    }
+    .NavMoboArrow {
+        width: 7px;
+        height: 7px;
+        border-style: solid;
+        border-width: 1.99227px 1.99227px 0px 0px;
+        transform: rotate(-135deg);
+    }
+    .NavNew {
+        color: #f45725;
+        margin-top: -7px;
+        margin-left: 5px;
+    }
+}
