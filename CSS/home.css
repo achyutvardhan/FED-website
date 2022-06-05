@@ -164,7 +164,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 171px;
+    margin-bottom: 30px;
 }
 
 .testDivChild {
@@ -254,6 +254,26 @@
     font-weight: 500;
 }
 
+.SeeallDiv {
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+    margin-bottom: 113px;
+}
+
+.WeWorkWith {
+    padding-top: 90px;
+    background-color: #fff;
+}
+
 .WeWorkWithPTag {
+    margin-bottom: 90px;
+    background-color: transparent;
     font-family: "Rubik", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 59px;
+    color: #0f0e0e;
+    text-align: center;
 }
