@@ -101,7 +101,8 @@
 .questionpTag span,
 .CardDesPTag span,
 .BelievePTag span,
-.believeCenterCol p span {
+.believeCenterCol p span,
+.userName {
     background-color: transparent;
     color: #f45725;
 }
@@ -160,6 +161,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 30px;
 }
 
 .testDivChild {
@@ -172,6 +174,58 @@
 .testDiv {
     background-color: #fff;
     padding: 24px;
-    width: 27.77%;
+    width: 40%;
     border-radius: 12px;
+}
+
+.testpTag {
+    background-color: transparent;
+    font-family: "Manrope", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 150%;
+    letter-spacing: 0.005em;
+    color: #000000;
+    margin-bottom: 90px;
+}
+
+.userDiv {
+    background-color: transparent;
+    width: 277px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+}
+
+.UserIcon {
+    background-color: transparent;
+    width: 80px;
+    height: 80px;
+    margin-right: 30px;
+}
+
+.userDisDiv {
+    background-color: transparent;
+}
+
+.userName {
+    font-family: "Manrope", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 24px;
+    letter-spacing: 0.005em;
+    margin-bottom: 4px;
+}
+
+.userPost {
+    background-color: transparent;
+    font-family: "Manrope", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+    letter-spacing: 0.005em;
+    color: #000000;
 }
