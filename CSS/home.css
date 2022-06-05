@@ -100,7 +100,8 @@
 
 .questionpTag span,
 .CardDesPTag span,
-.BelievePTag span {
+.BelievePTag span,
+.believeCenterCol p span {
     background-color: transparent;
     color: #f45725;
 }
@@ -133,4 +134,23 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.believeCenterCol {
+    width: 60%;
+    background-color: #fff;
+    border-radius: 12px;
+    margin-bottom: 30px;
+}
+
+.believeCenterCol p {
+    background-color: transparent;
+    margin: 30px;
+    font-family: "Manrope", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 28px;
+    letter-spacing: 0.005em;
+    color: #000000;
 }
