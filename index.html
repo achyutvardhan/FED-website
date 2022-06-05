@@ -11,6 +11,11 @@
     <link rel="stylesheet" href="./CSS/footer.css">
     <link rel="stylesheet" href="./CSS/home.css">
 
+    <!-- Add the slick-theme.css if you want default styling -->
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <!-- Add the slick-theme.css if you want default styling -->
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
+
     <!-- Js -->
     <script src="./js/nav.js" defer></script>
 
@@ -202,11 +207,17 @@
             </div>
         </div>
     </div>
-    <p class="Seeall"><span id="Seeall">See all</span> <span>></span></p>
+    <div class="SeeallDiv">
+        <p class="Seeall"><span id="Seeall">See all</span> <span>></span></p>
+    </div>
 
     <!-- we work with -->
     <div class="WeWorkWith">
-        <p>We <span>work</span> with...</p>
+        <p class="WeWorkWithPTag">We <span>work</span> with...</p>
+
+        <marquee behavior="" direction="">
+            hello
+        </marquee>
     </div>
 
     <!-- footer -->
@@ -326,7 +337,7 @@
         </div>
     </footer>
 
-
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 </body>
 
 </html>
