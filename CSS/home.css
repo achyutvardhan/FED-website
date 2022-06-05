@@ -105,7 +105,8 @@
 .userName,
 .Seeall,
 .Seeall span,
-.WeWorkWithPTag span {
+.WeWorkWithPTag span,
+.LetsTalkBusiness span {
     background-color: transparent;
     color: #f45725;
 }
@@ -325,4 +326,100 @@
     letter-spacing: 0.005em;
     text-align: center;
     color: #000;
+}
+
+.businessMDiv {
+    background-image: url("./../Img/Rectangle-89.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 90.5px 130.5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.businessMDivleft {
+    width: 50%;
+    background-color: transparent;
+}
+
+.businessMDivright {
+    width: 42%;
+    background-color: transparent;
+}
+
+.LetsTalkBusiness {
+    background-color: transparent;
+    font-family: "Rubik", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 80px;
+    letter-spacing: 0.005em;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+.LetsTalkBusinessSubtitle {
+    background-color: transparent;
+    font-family: "Manrope", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 40px;
+    letter-spacing: 0.005em;
+    color: #ffffff;
+}
+
+.businessMDivright div {
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+}
+
+.businessMDivright div label {
+    background-color: transparent;
+    font-family: "Manrope", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 40px;
+    letter-spacing: 0.005em;
+    color: #f45725;
+    margin-bottom: 10px;
+}
+
+.businessMDivright div input,
+.businessMDivright div textarea {
+    padding: 6px;
+    font-family: "Manrope", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 40px;
+    letter-spacing: 0.005em;
+    margin-bottom: 35px;
+    outline: none;
+    border: 2px solid #f45725;
+    border-radius: 6px;
+}
+
+.businessMDivright div textarea {
+    height: 200px;
+    resize: none;
+}
+
+.businessMDivright button {
+    outline: none;
+    width: 100%;
+    border-radius: 6px;
+    padding: 20px;
+    font-family: "Rubik", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #ffffff;
+    background-color: #f45725;
+    cursor: pointer;
 }
