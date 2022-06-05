@@ -155,3 +155,23 @@
     letter-spacing: 0.005em;
     color: #000000;
 }
+
+.testDivMain {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.testDivChild {
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: pink;
+}
+
+.testDiv {
+    background-color: #fff;
+    padding: 24px;
+    width: 27.77%;
+}
