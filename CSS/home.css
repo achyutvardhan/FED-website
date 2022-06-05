@@ -391,6 +391,7 @@
 
 .businessMDivright div input,
 .businessMDivright div textarea {
+    background-color: #fff;
     padding: 6px;
     font-family: "Manrope", sans-serif;
     font-style: normal;
@@ -407,6 +408,7 @@
 .businessMDivright div textarea {
     height: 200px;
     resize: none;
+    background-color: #fff;
 }
 
 .businessMDivright button {
